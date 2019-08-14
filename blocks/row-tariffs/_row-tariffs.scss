@@ -1,0 +1,6 @@
+
+.row-tariffs {
+    display: grid;
+    grid-template-columns: repeat(5, 230px);
+    grid-auto-rows: 300px;
+}

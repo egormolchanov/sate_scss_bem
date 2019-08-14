@@ -1,0 +1,56 @@
+
+/*FONT*/
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:400,600');
+
+/*SCSS*/
+@import "scss/variables";
+
+@import "scss/mixin";
+
+@import "scss/animation";
+
+/*BLOCKS*/
+@import "blocks/page/page";
+
+@import "blocks/header/header";
+
+@import "blocks/nav/nav";
+
+@import "blocks/menu/menu";
+
+@import "blocks/button/button";
+
+@import "blocks/list/list";
+
+@import "blocks/link/link";
+
+@import "blocks/banner/banner";
+
+@import "blocks/list-instagram/list-instagram";
+
+@import "blocks/button-arrow/button-arrow";
+
+@import "blocks/section-advantage/section-advantage";
+
+@import "blocks/row/row";
+
+@import "blocks/col/col";
+
+@import "blocks/section-functional/section-functional";
+
+@import "blocks/svg/svg";
+
+@import "blocks/section-for/section-for";
+
+@import "blocks/section-reviews/section-reviews";
+
+@import "blocks/wrapper-reviews/wrapper-reviews";
+
+@import "blocks/conteiner-reviews/conteiner-reviews";
+
+@import "blocks/row-tariffs/row-tariffs";
+
+@import "blocks/col-tariffs/col-tariffs";
+
+@import "blocks/footer/footer";
+

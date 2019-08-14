@@ -1,0 +1,50 @@
+
+.svg {
+    width: 450px;
+    position: relative;
+
+    &__crircle {
+        fill: $green;
+        animation: crircle 4s infinite;
+
+        &--opacity08 {
+            opacity: 0.8;
+        }
+
+        &--opacity06 {
+            opacity: 0.6;
+        }
+
+        &--opacity04 {
+            opacity: 0.4;
+        }
+
+        &--opacity02 {
+            opacity: 0.2;
+        }
+    }
+
+    &__tiem {
+        position: absolute;
+        width: 190px;
+        top: 38%;
+
+        &--left {
+            top: 38%;
+        }
+
+        &--right {
+            left: 285px;
+        }
+
+        h4 {
+            padding-bottom: 20px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+
+
+
+

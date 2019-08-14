@@ -1,0 +1,29 @@
+
+.footer {
+    background: $dark-green;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    white-space: nowrap;
+
+    &__icon {
+        font-size: 20px;
+        padding: 8px;
+        color: #fff;
+
+        &:hover {
+            color: $green;
+        }
+
+        &:active {
+            opacity: 0.3;
+        }
+    }
+
+    &__menu {
+        margin-right: 200px;
+    }
+
+}

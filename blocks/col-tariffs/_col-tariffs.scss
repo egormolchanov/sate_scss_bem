@@ -1,0 +1,58 @@
+
+.col-tariffs {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    0px 0px 20px 0px rgba(50, 50, 50, 0.5);
+    box-shadow:         0px 0px 20px 0px rgba(50, 50, 50, 0.5);
+    margin: 0 20px;
+    @include transition (0.5);
+
+    &:hover {
+        @include transform-scale (1.05);
+    }
+
+    &__titel {
+        text-transform: uppercase;
+        padding-top: 20px;
+    }
+
+    &__item {
+        &::before {
+            content: "\2022";
+            padding-right: 5px;
+            color: $green;
+        }
+    }
+
+    &__list {
+        padding: 5px;
+        color: rgba(0, 0, 0, .5);
+    }
+
+    &__span {
+        padding: 5px;
+        font-size: 22px;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        &--color-1 {
+            color: rgba(1, 145, 136, 0.6);
+        }
+
+        &--color-2 {
+            color: $green;
+        }
+
+        &--color-3 {
+            color: $dark-green;
+        }
+    }
+
+    &__button {
+        margin-bottom: 20px;
+    }
+}

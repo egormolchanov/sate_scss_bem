@@ -1,0 +1,18 @@
+
+.section-reviews {
+    background: url(blocks/section-reviews/image/img4.jpg) no-repeat center fixed;
+    @include background-size (cover);
+    height: 80vh;
+    min-height: 500px;
+    max-height: 800px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    &__titel {
+        padding-bottom: 30px;
+        text-transform: uppercase;
+        color: #fff;
+    }
+}

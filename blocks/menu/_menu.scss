@@ -1,0 +1,42 @@
+
+.menu {
+    display: flex;
+
+    &__item {
+        padding: 0 10px;
+    }
+
+    &__item-2 {
+        padding: 0 25px;
+    }
+
+    &__link {
+        color: rgba(0, 0, 0, .8);
+        position: relative;
+
+        &:hover:after {
+            content: "";
+            position: absolute;
+            left: 15%;
+            bottom: -10px;
+            width: 70%;
+            height: 2px;
+            background-color: $green;
+        }
+        &:active {
+            color: rgba(0, 0, 0, .5);
+        }
+    }
+
+    &__link-2 {
+        color: $green;
+
+        &:hover {
+            color: #fff;
+        }
+
+        &:active {
+            opacity: 0.3;
+        }
+    }
+}

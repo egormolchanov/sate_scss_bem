@@ -1,0 +1,29 @@
+
+.button {
+    display: inline-block;
+    padding: 5px 30px;
+    background-color: $green;
+    border-radius: 30px;
+    font-family: $font-family;
+    line-height:inherit;
+    font-size:inherit;
+    vertical-align:middle;
+    text-align:center;
+    border:none;
+    user-select:none;
+    cursor:pointer;
+    outline:none;
+    color: #fff;
+    text-transform: uppercase;
+    &:hover {
+        background-color: $dark-green;
+        
+    }
+    &:active {
+        transform: translateY(5px);
+    }
+
+    &--size-m {
+        padding: 10px 30px;
+    }
+}

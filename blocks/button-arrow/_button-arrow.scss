@@ -1,0 +1,35 @@
+
+.button-arrow {
+    background-color: transparent;
+    border-left: transparent;
+    border-top: transparent;
+    border-right: 5px solid rgba(255, 255, 255, 0.74);
+    border-bottom: 5px solid rgba(255, 255, 255, 0.74);
+    width: 15px;
+    height: 15px;
+    padding: 15px;
+    cursor: pointer;
+    outline:none; 
+
+    &:hover {
+        border-right: 5px solid #fff;
+        border-bottom: 5px solid #fff;
+    }
+
+    &--right {
+        transform: rotate(135deg);
+
+        &:active{
+            transform: rotate(135deg) translate(5px, 5px);
+        }
+    }
+
+    &--left {
+        transform: rotate(-45deg);
+
+        &:active{
+            transform: rotate(-45deg) translate(5px, 5px);
+        }
+    }
+}
+

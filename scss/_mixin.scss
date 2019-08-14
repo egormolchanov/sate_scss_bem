@@ -1,0 +1,74 @@
+
+@mixin transform-scale ($scale) {
+    -o-transform: scale($scale);
+	-ms-transform: scale($scale);
+	-moz-transform: scale($scale);
+    -webkit-transform: scale($scale);
+    transform: scale($scale);
+}
+
+@mixin transformX ($transformX) {
+    -o-transform: translatex(#{$transformX}px);
+	-ms-transform: translatex(#{$transformX}px);
+	-moz-transform: translatex(#{$transformX}px);
+	-webkit-transform: translatex(#{$transformX}px);
+	transform: translatex(#{$transformX}px);
+}
+
+@mixin transformY ($transformY) {
+    -o-transform: translatex(#{$transformY}px);
+	-ms-transform: translatex(#{$transformY}px);
+	-moz-transform: translatex(#{$transformY}px);
+	-webkit-transform: translatex(#{$transformY}px);
+	transform: translatex(#{$transformY}px);
+}
+
+@mixin transformZ ($transformZ) {
+    -o-transform: translateZ(#{$transformZ}px);
+	-ms-transform: translateZ(#{$transformZ}px);
+	-moz-transform: translateZ(#{$transformZ}px);
+	-webkit-transform: translateZ(#{$transformZ}px);
+	transform: translateZ(#{$transformZ}px);
+}
+
+@mixin transformZ-scale ($transformZ, $scale) {
+    -o-transform: translateZ(#{$transformZ}px) scale($scale);
+	-ms-transform: translateZ(#{$transformZ}px) scale($scale);
+	-moz-transform: translateZ(#{$transformZ}px) scale($scale);
+	-webkit-transform: translateZ(#{$transformZ}px) scale($scale);
+	transform: translateZ(#{$transformZ}px) scale($scale);
+}
+
+
+@mixin transform ($value) {
+    -o-transform: $value;
+	-ms-transform: $value;
+	-moz-transform: $value;
+    -webkit-transform: $value;
+    transform: $value;
+}
+
+@mixin transition ($s) {
+    -o-transition: all #{$s}s;
+	-ms-transition: all #{$s}s;
+	-moz-transition: all #{$s}s;
+	-webkit-transition: all #{$s}s;
+	transition: all #{$s}s;
+}
+
+@mixin background-size ($cover) {
+      -o-background-size: $cover;
+    -ms-background-size: $cover;
+    -moz-background-size: $cover;
+    -webkit-background-size: $cover;
+    background-size: $cover;
+}
+
+
+@mixin border-radius ($size) {
+	-o-border-radius: ($size);
+	-ms-border-radius: ($size);
+	-moz-border-radius: ($size);
+	-webkit-border-radius: ($size);
+	border-radius: ($size);
+}

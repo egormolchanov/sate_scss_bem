@@ -1,0 +1,30 @@
+
+.conteiner-reviews {
+    background: #fff;
+    height: 400px;
+    min-width: 310px;
+    width: 70%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    @include transition (1);
+
+    &__img {
+        height: 80px;
+        border-radius: 50%;
+        margin: 50px 0;
+    }
+
+    &__button {
+        border-color: $green;
+        margin: auto 20px;
+
+        &:hover {
+            border-color: $dark-green;
+        }
+    }
+
+    &:hover {
+        @include transform-scale (1.01);
+    }
+}

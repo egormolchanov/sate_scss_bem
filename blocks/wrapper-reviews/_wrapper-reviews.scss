@@ -1,0 +1,59 @@
+
+.wrapper-reviews {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    min-width: 200px;
+    padding: 30px 15px; 
+    overflow: hidden;
+
+    &__titel {
+        padding-bottom: 10px;
+    }
+
+    &__link {
+        color: $green;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    &__icon {
+        padding: 5px 15px 20px 0;
+        font-size: 22px;
+
+        &--color-vk {
+            color: #45688E;
+        }
+
+        &--color-fb {
+            color:  #1a4780;
+            font-size: 20px;
+        }
+
+        &--color-inst {
+            color: #f47721;
+        }
+
+        &:hover {
+            color: $dark-green;
+            opacity: 0.6;
+        }
+    }
+
+    &__row {
+        display: flex;
+    }
+
+    &__item {
+        overflow: hidden;
+        height: 50%;
+
+        p {
+            text-overflow: ellipsis;
+        }
+    }
+
+}

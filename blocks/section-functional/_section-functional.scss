@@ -1,0 +1,52 @@
+
+.section-functional {
+    height: 1000px;
+    position: relative;
+    overflow: hidden; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+    &::before {
+        content: "";
+        position: absolute;
+        height: 70%;
+        width: 120%;
+        top: 15%;
+        left: -10%;
+        z-index: -1;
+        background: url(./blocks/section-functional/image/img4.jpg) no-repeat bottom fixed;
+        @include background-size (cover);
+        -webkit-transform: rotate(-4deg);
+        transform: rotate(-4deg) scale(1.1);
+    }
+
+    &__titel {
+        padding-bottom: 30px;
+        text-transform: uppercase;
+    }
+
+    &__list {
+        position: relative;
+        padding: 20px;
+    }
+
+    &__number {
+        font-size: 50px;
+        position: absolute;
+        top: -7px;
+        left: -40px;
+        user-select: none;
+    }
+
+    &__line {
+        width: 30px;
+        height: 3px;
+        background-color: #fff;
+        margin-left: -532px;
+        animation: line 3s 3s infinite;
+    }
+
+}

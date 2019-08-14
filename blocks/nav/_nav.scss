@@ -1,0 +1,14 @@
+
+.nav {
+    display: flex;
+    align-items: center;
+    user-select:none;
+
+    &__logo {
+        height: 50px;
+    }
+
+    &__menu {
+        padding: 0 10px;
+    }
+}

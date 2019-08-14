@@ -1,0 +1,24 @@
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+.page {
+    font-family: $font-family;
+    font-size: 18px;
+    overflow-x: hidden;  
+
+}
+
+.page__tariffs {
+    margin: 30px 0;
+    justify-content: center;
+}
+
+.page__titel {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}

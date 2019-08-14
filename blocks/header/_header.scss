@@ -1,0 +1,31 @@
+
+.header {
+    background: url(./blocks/header/image/banner.jpg) no-repeat top fixed;
+    @include background-size (cover);
+    height: 80vh;
+    min-height: 520px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    -webkit-transform: translateZ(-2px);
+    transform: translateZ(-2px);
+	overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+    
+    &__nav {
+        justify-content: center;
+        width: 960px;
+        height: 80px;
+        background-color: rgba(255, 255, 255, .7);
+        margin: 0 auto;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    &__banner {
+        -webkit-transform: translateZ(-5px) scale(3.5);
+        transform: translateZ(-5px) scale(3.5);
+    }
+
+}
+
